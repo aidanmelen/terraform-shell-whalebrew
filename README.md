@@ -22,7 +22,7 @@ Use the [terraform.tfvars](https://github.com/aidanmelen/terraform-shell-whalebr
 whalebrew_images = [
   "whalebrew/whalesay",         # stable whalebrew optimized docker image.
   "hashicorp/terraform:0.13.0"  # non optimized docker image, but still works.
-  "aidanmelen/terraform-docs",  # some docker images that I wrapped with whalebrew docker lables.
+  "aidanmelen/terraform-docs",  # some docker images that I wrapped with whalebrew docker labels.
   "aidanmelen/tflint",
   "aidanmelen/tfsec",
   "aidanmelen/pre-commit",
