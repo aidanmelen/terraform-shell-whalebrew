@@ -16,7 +16,7 @@ This project assumes that you have Docker, Whalebrew, and Terraform installed.
 
 ## Usage
 
-Use the [terraform.tfvars](https://github.com/aidanmelen/terraform-shell-whalebrew/terraform.tfvars) file to define a list of Whalebrew packages to install. Add a package to the list and it will be installed. Remove a package from the list and it will be uninstalled.
+Use the [terraform.tfvars](https://github.com/aidanmelen/terraform-shell-whalebrew/blob/main/terraform.tfvars) file to define a list of Whalebrew packages to install. Add a package to the list and it will be installed. Remove a package from the list and it will be uninstalled.
 
 ```
 whalebrew_images = [
